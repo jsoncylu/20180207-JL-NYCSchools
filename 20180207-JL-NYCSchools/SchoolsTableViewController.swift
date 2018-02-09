@@ -77,6 +77,7 @@ class SchoolsTableViewController: UITableViewController {
         if segue.identifier == schoolDetailSegue, let destination = segue.destination as? SchoolDetailViewController, let index = tableView.indexPathForSelectedRow?.row {
             destination.schoolName = schoolsArray[index].school_name
             destination.dbn = schoolsArray[index].dbn
+            destination.summary = schoolsArray[index].overview_paragraph
             print(schoolsArray[index].school_name)
         }
     }

@@ -14,15 +14,18 @@ class SchoolDetailViewController: UIViewController {
     @IBOutlet weak var writingLabel: UILabel!
     @IBOutlet weak var numTakersLabel: UILabel!
     @IBOutlet weak var schoolNameLabel: UILabel!
+    @IBOutlet weak var summaryTextView: UITextView!
     
     var dbn: String?
     var schoolName: String?
+    var summary: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         if let dbn = dbn, let schoolName = schoolName {
             schoolNameLabel.text = schoolName + "'s SAT Scores"
             getSchoolDetail(dbn)
+            summaryTextView.text = summary
         }
         // Do any additional setup after loading the view.
     }

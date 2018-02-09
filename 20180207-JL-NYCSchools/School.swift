@@ -12,6 +12,7 @@ import Foundation
 struct School: Codable {
     var school_name: String
     var dbn: String
+    var overview_paragraph: String
     
     /// Makes a GET request to the 2017 DOE HS Directory endpoint. Decodes the JSON data into an array of schools.
     ///
@@ -56,6 +57,7 @@ struct SchoolDetail: Codable {
     var sat_math_avg_score: String
     var sat_writing_avg_score: String
     var num_of_sat_test_takers: String
+    
     
     /// Creates a url with parameters.
     ///
