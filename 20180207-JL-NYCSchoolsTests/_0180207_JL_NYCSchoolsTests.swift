@@ -1,15 +1,14 @@
 //
-//  NYC_SchoolsTests.swift
-//  NYC SchoolsTests
+//  _0180207_JL_NYCSchoolsTests.swift
+//  20180207-JL-NYCSchoolsTests
 //
-//  Created by Jason Lu on 2/7/18.
+//  Created by Jason Lu on 2/8/18.
 //  Copyright © 2018 Jason Lu. All rights reserved.
 //
 
 import XCTest
-@testable import NYC_Schools
 
-class NYC_SchoolsTests: XCTestCase {
+class _0180207_JL_NYCSchoolsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -11,27 +11,27 @@
 		384EB20C202BDBD3006C06A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384EB20A202BDBD3006C06A3 /* Main.storyboard */; };
 		384EB20E202BDBD3006C06A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384EB20D202BDBD3006C06A3 /* Assets.xcassets */; };
 		384EB211202BDBD3006C06A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384EB20F202BDBD3006C06A3 /* LaunchScreen.storyboard */; };
-		384EB21C202BDBD3006C06A3 /* NYC_SchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384EB21B202BDBD3006C06A3 /* NYC_SchoolsTests.swift */; };
-		384EB227202BDBD3006C06A3 /* NYC_SchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384EB226202BDBD3006C06A3 /* NYC_SchoolsUITests.swift */; };
 		384EB235202BE084006C06A3 /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384EB234202BE084006C06A3 /* SchoolsTableViewController.swift */; };
 		384EB237202BE0A5006C06A3 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384EB236202BE0A5006C06A3 /* SchoolDetailViewController.swift */; };
 		384EB239202BF6DA006C06A3 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384EB238202BF6DA006C06A3 /* School.swift */; };
+		3852CBE1202D2C7A00416E35 /* _0180207_JL_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852CBE0202D2C7A00416E35 /* _0180207_JL_NYCSchoolsTests.swift */; };
+		3852CBEF202D2CAB00416E35 /* _0180207_JL_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852CBEE202D2CAB00416E35 /* _0180207_JL_NYCSchoolsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		384EB218202BDBD3006C06A3 /* PBXContainerItemProxy */ = {
+		3852CBE3202D2C7A00416E35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 384EB1FB202BDBD2006C06A3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 384EB202202BDBD2006C06A3;
-			remoteInfo = "NYC Schools";
+			remoteInfo = "20180207-JL-NYCSchools";
 		};
-		384EB223202BDBD3006C06A3 /* PBXContainerItemProxy */ = {
+		3852CBF1202D2CAB00416E35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 384EB1FB202BDBD2006C06A3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 384EB202202BDBD2006C06A3;
-			remoteInfo = "NYC Schools";
+			remoteInfo = "20180207-JL-NYCSchools";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,15 +42,15 @@
 		384EB20D202BDBD3006C06A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384EB210202BDBD3006C06A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		384EB212202BDBD3006C06A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		384EB217202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180207-JL-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		384EB21B202BDBD3006C06A3 /* NYC_SchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYC_SchoolsTests.swift; sourceTree = "<group>"; };
-		384EB21D202BDBD3006C06A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		384EB222202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180207-JL-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		384EB226202BDBD3006C06A3 /* NYC_SchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYC_SchoolsUITests.swift; sourceTree = "<group>"; };
-		384EB228202BDBD3006C06A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		384EB234202BE084006C06A3 /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
 		384EB236202BE0A5006C06A3 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
 		384EB238202BF6DA006C06A3 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		3852CBDE202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180207-JL-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3852CBE0202D2C7A00416E35 /* _0180207_JL_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0180207_JL_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		3852CBE2202D2C7A00416E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3852CBEC202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180207-JL-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3852CBEE202D2CAB00416E35 /* _0180207_JL_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0180207_JL_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		3852CBF0202D2CAB00416E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +61,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB214202BDBD3006C06A3 /* Frameworks */ = {
+		3852CBDB202D2C7A00416E35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB21F202BDBD3006C06A3 /* Frameworks */ = {
+		3852CBE9202D2CAB00416E35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				384EB205202BDBD3006C06A3 /* 20180207-JL-NYCSchools */,
-				384EB21A202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests */,
-				384EB225202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests */,
+				3852CBDF202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests */,
+				3852CBED202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests */,
 				384EB204202BDBD3006C06A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				384EB203202BDBD3006C06A3 /* 20180207-JL-NYCSchools.app */,
-				384EB217202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests.xctest */,
-				384EB222202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests.xctest */,
+				3852CBDE202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests.xctest */,
+				3852CBEC202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,20 +113,20 @@
 			path = "20180207-JL-NYCSchools";
 			sourceTree = "<group>";
 		};
-		384EB21A202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests */ = {
+		3852CBDF202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				384EB21B202BDBD3006C06A3 /* NYC_SchoolsTests.swift */,
-				384EB21D202BDBD3006C06A3 /* Info.plist */,
+				3852CBE0202D2C7A00416E35 /* _0180207_JL_NYCSchoolsTests.swift */,
+				3852CBE2202D2C7A00416E35 /* Info.plist */,
 			);
 			path = "20180207-JL-NYCSchoolsTests";
 			sourceTree = "<group>";
 		};
-		384EB225202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests */ = {
+		3852CBED202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				384EB226202BDBD3006C06A3 /* NYC_SchoolsUITests.swift */,
-				384EB228202BDBD3006C06A3 /* Info.plist */,
+				3852CBEE202D2CAB00416E35 /* _0180207_JL_NYCSchoolsUITests.swift */,
+				3852CBF0202D2CAB00416E35 /* Info.plist */,
 			);
 			path = "20180207-JL-NYCSchoolsUITests";
 			sourceTree = "<group>";
@@ -151,40 +151,40 @@
 			productReference = 384EB203202BDBD3006C06A3 /* 20180207-JL-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		384EB216202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests */ = {
+		3852CBDD202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 384EB22E202BDBD3006C06A3 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsTests" */;
+			buildConfigurationList = 3852CBE7202D2C7A00416E35 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsTests" */;
 			buildPhases = (
-				384EB213202BDBD3006C06A3 /* Sources */,
-				384EB214202BDBD3006C06A3 /* Frameworks */,
-				384EB215202BDBD3006C06A3 /* Resources */,
+				3852CBDA202D2C7A00416E35 /* Sources */,
+				3852CBDB202D2C7A00416E35 /* Frameworks */,
+				3852CBDC202D2C7A00416E35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				384EB219202BDBD3006C06A3 /* PBXTargetDependency */,
+				3852CBE4202D2C7A00416E35 /* PBXTargetDependency */,
 			);
 			name = "20180207-JL-NYCSchoolsTests";
-			productName = "NYC SchoolsTests";
-			productReference = 384EB217202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests.xctest */;
+			productName = "20180207-JL-NYCSchoolsTests";
+			productReference = 3852CBDE202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		384EB221202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests */ = {
+		3852CBEB202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 384EB231202BDBD3006C06A3 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsUITests" */;
+			buildConfigurationList = 3852CBF3202D2CAB00416E35 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsUITests" */;
 			buildPhases = (
-				384EB21E202BDBD3006C06A3 /* Sources */,
-				384EB21F202BDBD3006C06A3 /* Frameworks */,
-				384EB220202BDBD3006C06A3 /* Resources */,
+				3852CBE8202D2CAB00416E35 /* Sources */,
+				3852CBE9202D2CAB00416E35 /* Frameworks */,
+				3852CBEA202D2CAB00416E35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				384EB224202BDBD3006C06A3 /* PBXTargetDependency */,
+				3852CBF2202D2CAB00416E35 /* PBXTargetDependency */,
 			);
 			name = "20180207-JL-NYCSchoolsUITests";
-			productName = "NYC SchoolsUITests";
-			productReference = 384EB222202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests.xctest */;
+			productName = "20180207-JL-NYCSchoolsUITests";
+			productReference = 3852CBEC202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,12 +201,12 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					384EB216202BDBD3006C06A3 = {
+					3852CBDD202D2C7A00416E35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 384EB202202BDBD2006C06A3;
 					};
-					384EB221202BDBD3006C06A3 = {
+					3852CBEB202D2CAB00416E35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 384EB202202BDBD2006C06A3;
@@ -227,8 +227,8 @@
 			projectRoot = "";
 			targets = (
 				384EB202202BDBD2006C06A3 /* 20180207-JL-NYCSchools */,
-				384EB216202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsTests */,
-				384EB221202BDBD3006C06A3 /* 20180207-JL-NYCSchoolsUITests */,
+				3852CBDD202D2C7A00416E35 /* 20180207-JL-NYCSchoolsTests */,
+				3852CBEB202D2CAB00416E35 /* 20180207-JL-NYCSchoolsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +244,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB215202BDBD3006C06A3 /* Resources */ = {
+		3852CBDC202D2C7A00416E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB220202BDBD3006C06A3 /* Resources */ = {
+		3852CBEA202D2CAB00416E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,34 +272,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB213202BDBD3006C06A3 /* Sources */ = {
+		3852CBDA202D2C7A00416E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384EB21C202BDBD3006C06A3 /* NYC_SchoolsTests.swift in Sources */,
+				3852CBE1202D2C7A00416E35 /* _0180207_JL_NYCSchoolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384EB21E202BDBD3006C06A3 /* Sources */ = {
+		3852CBE8202D2CAB00416E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384EB227202BDBD3006C06A3 /* NYC_SchoolsUITests.swift in Sources */,
+				3852CBEF202D2CAB00416E35 /* _0180207_JL_NYCSchoolsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		384EB219202BDBD3006C06A3 /* PBXTargetDependency */ = {
+		3852CBE4202D2C7A00416E35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 384EB202202BDBD2006C06A3 /* 20180207-JL-NYCSchools */;
-			targetProxy = 384EB218202BDBD3006C06A3 /* PBXContainerItemProxy */;
+			targetProxy = 3852CBE3202D2C7A00416E35 /* PBXContainerItemProxy */;
 		};
-		384EB224202BDBD3006C06A3 /* PBXTargetDependency */ = {
+		3852CBF2202D2CAB00416E35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 384EB202202BDBD2006C06A3 /* 20180207-JL-NYCSchools */;
-			targetProxy = 384EB223202BDBD3006C06A3 /* PBXContainerItemProxy */;
+			targetProxy = 3852CBF1202D2CAB00416E35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -464,16 +464,15 @@
 			};
 			name = Release;
 		};
-		384EB22F202BDBD3006C06A3 /* Debug */ = {
+		3852CBE5202D2C7A00416E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG29L4MLYF;
 				INFOPLIST_FILE = "20180207-JL-NYCSchoolsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.NYC-SchoolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.-0180207-JL-NYCSchoolsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,16 +480,15 @@
 			};
 			name = Debug;
 		};
-		384EB230202BDBD3006C06A3 /* Release */ = {
+		3852CBE6202D2C7A00416E35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG29L4MLYF;
 				INFOPLIST_FILE = "20180207-JL-NYCSchoolsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.NYC-SchoolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.-0180207-JL-NYCSchoolsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,35 +496,33 @@
 			};
 			name = Release;
 		};
-		384EB232202BDBD3006C06A3 /* Debug */ = {
+		3852CBF4202D2CAB00416E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG29L4MLYF;
 				INFOPLIST_FILE = "20180207-JL-NYCSchoolsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.NYC-SchoolsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.-0180207-JL-NYCSchoolsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NYC Schools";
+				TEST_TARGET_NAME = "20180207-JL-NYCSchools";
 			};
 			name = Debug;
 		};
-		384EB233202BDBD3006C06A3 /* Release */ = {
+		3852CBF5202D2CAB00416E35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG29L4MLYF;
 				INFOPLIST_FILE = "20180207-JL-NYCSchoolsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.NYC-SchoolsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.-0180207-JL-NYCSchoolsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NYC Schools";
+				TEST_TARGET_NAME = "20180207-JL-NYCSchools";
 			};
 			name = Release;
 		};
@@ -551,20 +547,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		384EB22E202BDBD3006C06A3 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsTests" */ = {
+		3852CBE7202D2C7A00416E35 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				384EB22F202BDBD3006C06A3 /* Debug */,
-				384EB230202BDBD3006C06A3 /* Release */,
+				3852CBE5202D2C7A00416E35 /* Debug */,
+				3852CBE6202D2C7A00416E35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		384EB231202BDBD3006C06A3 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsUITests" */ = {
+		3852CBF3202D2CAB00416E35 /* Build configuration list for PBXNativeTarget "20180207-JL-NYCSchoolsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				384EB232202BDBD3006C06A3 /* Debug */,
-				384EB233202BDBD3006C06A3 /* Release */,
+				3852CBF4202D2CAB00416E35 /* Debug */,
+				3852CBF5202D2CAB00416E35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
