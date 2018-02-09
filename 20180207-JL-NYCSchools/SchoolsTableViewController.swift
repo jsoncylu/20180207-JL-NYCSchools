@@ -12,9 +12,18 @@ class SchoolsTableViewController: UITableViewController {
     let schoolCellIdentifier = "schoolIdentifier"
     let schoolDetailSegue = "ShowDetailSegue"
     var schoolsArray: [School] = []
+    
+    var activityIndicator: UIActivityIndicatorView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        if (schoolsArray.count == 0) {
+            tableView.separatorStyle = .none
+            activityIndicator.startAnimating()
+        }
+        tableView.backgroundView = activityIndicator
         getAllSchools()
     }
     
@@ -31,7 +40,9 @@ class SchoolsTableViewController: UITableViewController {
             }
             self?.schoolsArray = schools
             DispatchQueue.main.async {
+                self?.tableView.separatorStyle = .singleLine
                 self?.tableView.reloadData()
+                self?.activityIndicator.stopAnimating()
             }
         }
     }
